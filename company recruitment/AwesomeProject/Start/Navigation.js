@@ -7,7 +7,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import Start from '../Start/Start';
 import Home from '../Start/Home'
 import About from '../Start/About'
-import BloodDetail from '../Start/BloodDetail'
+import Detail from '../Start/Detail'
 import Next from '../Start/Next'
 import Login from '../Start/Login'
 import Thankyou from '../Start/Thankyou'
@@ -29,7 +29,7 @@ function AppNavigation() {
       <Stack.Screen name="Start" component={Start} />
       <Stack.Screen name="Home" component={Home} />
       <Stack.Screen name="About" component={About} />
-      <Stack.Screen name="BloodDetail" component={BloodDetail} />
+      <Stack.Screen name="Detail" component={Detail} />
       <Stack.Screen name="Next" component={Next} />
       <Stack.Screen name="Login" component={Login} />
       <Stack.Screen name="Thankyou" component={Thankyou} />

@@ -35,7 +35,7 @@ function Home(Props){
  
    <Image source={{uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiDcI11KWqR94ynJulBgExAVs8yg2_DckYvQ&usqp=CAU '}} 
         style={{width: 350, height: 200,resizeMode:'contain',marginTop:2}} />
-   <TouchableOpacity onPress={()=>Props.navigation.navigate('BloodDetail')} title='click'>  
+   <TouchableOpacity onPress={()=>Props.navigation.navigate('Detail')} title='click'>  
            <Text style={{textAlign:'center',fontSize:25,backgroundColor:'orange',clor:'white',marginTop:15}}  >skills you need</Text>
 </TouchableOpacity>
    

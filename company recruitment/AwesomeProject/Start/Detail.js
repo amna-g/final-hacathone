@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
   },
 });
 
-const BloodDetail = (Props) => {
+const Detail = (Props) => {
   return (
     <View style={styles.container}>
       <FlatList 
@@ -38,4 +38,4 @@ const BloodDetail = (Props) => {
   );
 }
 
-export default BloodDetail;
+export default Detail;
